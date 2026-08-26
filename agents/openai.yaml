@@ -1,0 +1,7 @@
+interface:
+  display_name: "Apresentação — Bullets"
+  short_description: "Reorganiza slides em bullets hierárquicos"
+  default_prompt: "Use $apresentacao-bullets para reorganizar esta apresentação em bullets hierárquicos, preservando conteúdo, fontes e identidade visual."
+
+policy:
+  allow_implicit_invocation: false
