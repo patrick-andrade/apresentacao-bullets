@@ -49,14 +49,7 @@ Abra um **chat novo** depois de instalar.
 
 ## Pedir
 
-**Cursor** (linguagem natural; a description dispara a skill):
-
-```text
-Reorganize estes slides em bullets hierárquicos.
-Preserve conteúdo, fontes e o template.
-```
-
-**Codex** (invocação explícita):
+Nomeie a skill. Pedir só “reorganize estes slides” não carrega mais a ficha. No Cursor, `/apresentacao-bullets` ou o nome da skill no pedido também valem.
 
 ```text
 Use $apresentacao-bullets para reorganizar esta apresentação

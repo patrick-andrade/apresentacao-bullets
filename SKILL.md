@@ -1,10 +1,11 @@
 ---
 name: apresentacao-bullets
-description: Reorganiza apresentações existentes em bullets hierárquicos, preservando conteúdo, fontes e identidade visual. Usar quando o usuário pedir para reorganizar slides, transformar parágrafos em bullets, hierarquizar tópicos de uma apresentação já produzida em Quarto, Markdown, PowerPoint ou Google Slides, ou complementar aula-academica na microestrutura textual.
+description: Reorganiza apresentações existentes em bullets hierárquicos, preservando conteúdo, fontes e identidade visual.
+disable-model-invocation: true
 license: MIT
 metadata:
   author: Patrick Andrade
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Apresentação — bullets
