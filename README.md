@@ -11,8 +11,10 @@ Guia: [Skills na Prática](https://patrick-andrade.github.io/guias/skills-na-pra
 ## O que ela faz
 
 - Converte parágrafos soltos e listas genéricas em uma hierarquia de um a três níveis.
-- Preserva template, quantidade de slides, tabelas, gráficos, fórmulas, código e notas que exigem rastreabilidade.
-- Serve em Quarto, Markdown, PowerPoint e Google Slides, editando o arquivo ou o deck aberto. Não instala Google Workspace nem usa conector, API ou exportação automática entre ferramentas.
+- Usa rótulos funcionais em texto simples só quando ajudam, sem negrito por padrão e sem pontuação final nos itens.
+- Preserva template, quantidade de slides, tabelas, gráficos, fórmulas, código e notas que exigem rastreabilidade. Se o texto não couber, enxuga a redação e, se ainda não bastar, propõe dividir o slide.
+- Serve em Quarto, Markdown, PowerPoint (em uma cópia `-bullets.pptx`) e Google Slides. Usa um conector do Google Slides se o seu ambiente tiver um; não instala nenhum.
+- Termina com um relatório: slides alterados, lacunas sinalizadas, notas removidas e o que ficou sem verificação visual.
 
 A skill guarda o *como*. O chat continua dizendo *qual* apresentação e *o que* pode mudar.
 
@@ -49,7 +51,7 @@ Abra um **chat novo** depois de instalar.
 
 ## Pedir
 
-Nomeie a skill. Pedir só “reorganize estes slides” não carrega mais a ficha. No Cursor, `/apresentacao-bullets` ou o nome da skill no pedido também valem.
+Nomeie a skill. Pedir só “reorganize estes slides” não carrega mais a ficha. No Codex, use `$apresentacao-bullets`; no Claude Code, `/apresentacao-bullets`; no Cursor, `/apresentacao-bullets` ou o nome da skill no pedido.
 
 ```text
 Use $apresentacao-bullets para reorganizar esta apresentação

@@ -1,18 +1,18 @@
 # Padrões de reorganização
 
-Consulte estes exemplos para decidir agrupamento, nível e exceções. O objetivo é tornar explícita a função de cada trecho sem mudar o argumento.
+Consulte estes exemplos para decidir agrupamento, nível e exceções. O objetivo é tornar explícita a função de cada trecho sem mudar o argumento. Rótulos, ênfase e pontuação seguem a seção correspondente do [SKILL.md](../SKILL.md): rótulo em texto simples, só quando útil, e itens sem pontuação final.
 
 ## Padrão Quarto validado
 
 Use um bullet-pai para o bloco lógico e quatro espaços para cada sub-bullet. Deixe uma linha em branco entre o pai e a sublista:
 
 ~~~markdown
-- **Mecanismo:**
+- Mecanismo:
 
-    - primeira etapa;
-    - segunda etapa.
+    - primeira etapa
+    - segunda etapa
 
-- **Resultado:** consequência observada.
+- Resultado: consequência observada
 ~~~
 
 A linha em branco e os quatro espaços impedem que a conversão para PowerPoint trate pai e filho como um único parágrafo. Use o marcador Markdown `-`; o caractere visual `•` pertence ao tema ou ao mecanismo nativo da apresentação.
@@ -32,16 +32,14 @@ A produção de mercado fica acima do nível socialmente eficiente.
 Depois:
 
 ~~~markdown
-- **Conceito:** a poluição é uma externalidade negativa.
+- A poluição é uma externalidade negativa
 
-- **Mecanismo:**
+- Mecanismo: o custo privado não inclui todo o dano imposto à sociedade
 
-    - o custo privado não inclui todo o dano imposto à sociedade.
-
-- **Resultado:** a produção de mercado fica acima do nível socialmente eficiente.
+- Resultado: a produção de mercado fica acima do nível socialmente eficiente
 ~~~
 
-O conteúdo e a ordem foram preservados; os rótulos apenas revelam a função lógica.
+O conteúdo e a ordem foram preservados. A primeira frase já enuncia a ideia e dispensa rótulo; os rótulos das demais revelam a função lógica. Com um único item, o mecanismo fica na linha do pai em vez de abrir uma sublista.
 
 ## 2. Cadeia causal
 
@@ -54,14 +52,14 @@ A atividade gera um efeito sobre terceiros. Esse efeito não entra no preço. Os
 Depois:
 
 ~~~markdown
-- **Ponto de partida:** a atividade gera um efeito sobre terceiros.
+- Ponto de partida: a atividade gera um efeito sobre terceiros
 
-- **Mecanismo:**
+- Mecanismo:
 
-    - o efeito não entra no preço;
-    - os agentes tomam decisões com base em um custo incompleto.
+    - o efeito não entra no preço
+    - os agentes tomam decisões com base em um custo incompleto
 
-- **Implicação:** surge uma diferença entre o resultado privado e o social.
+- Implicação: surge uma diferença entre o resultado privado e o social
 ~~~
 
 Quando a causalidade for o centro do slide, prefira blocos lógicos a uma sequência de frases independentes.
@@ -77,11 +75,11 @@ Para que a negociação funcione, os direitos precisam estar definidos, os custo
 Depois:
 
 ~~~markdown
-- **Premissas para a negociação:**
+- Premissas para a negociação:
 
-    - direitos bem definidos;
-    - custos de transação baixos;
-    - possibilidade efetiva de negociação entre as partes.
+    - direitos bem definidos
+    - custos de transação baixos
+    - possibilidade efetiva de negociação entre as partes
 ~~~
 
 As premissas são pares no segundo nível. Não crie um terceiro nível para decompor frases curtas.
@@ -97,15 +95,15 @@ Considere o caso apresentado. Identifique quem gera e quem recebe a externalidad
 Depois:
 
 ~~~markdown
-- **Caso:** considere a situação apresentada.
+- Caso: considere a situação apresentada
 
-- **Tarefa:**
+- Tarefa:
 
-    - identifique quem gera e quem recebe a externalidade;
-    - proponha um instrumento de política;
-    - justifique a escolha.
+    - identifique quem gera e quem recebe a externalidade
+    - proponha um instrumento de política
+    - justifique a escolha
 
-- **Tempo:** 12 minutos.
+- Tempo: 12 minutos
 ~~~
 
 Preserve a sequência numerada somente se as etapas precisarem ser executadas em ordem ou se o número de respostas for parte da instrução.
@@ -123,14 +121,14 @@ Em síntese, alinhar o incentivo privado ao custo social altera a decisão na ma
 Depois:
 
 ~~~markdown
-- **Síntese:** alinhar o incentivo privado ao custo social altera a decisão na margem.
+- Síntese: alinhar o incentivo privado ao custo social altera a decisão na margem
 
-- **Formulação do autor:**
+- Formulação do autor:
 
     > Trecho citado mantido exatamente como no original.
 ~~~
 
-Mantenha a citação direta e sua fonte. O bullet organiza sua função no slide; não autoriza paráfrase nem supressão de rastreabilidade.
+Mantenha a citação direta, com sua pontuação, e sua fonte. O bullet organiza sua função no slide; não autoriza paráfrase nem supressão de rastreabilidade.
 
 ## 6. Fórmula
 
@@ -149,13 +147,13 @@ No ótimo social, o benefício marginal é igual ao custo marginal social.
 Depois:
 
 ~~~markdown
-- **Composição:** o custo marginal social soma o custo marginal privado e o dano marginal.
+- Composição: o custo marginal social soma o custo marginal privado e o dano marginal
 
 $$
 CMS(q) = CMP(q) + DM(q)
 $$
 
-- **Condição de eficiência:** no ótimo social, o benefício marginal é igual ao custo marginal social.
+- Condição de eficiência: no ótimo social, o benefício marginal é igual ao custo marginal social
 ~~~
 
 A equação continua em um bloco próprio. Organize apenas os parágrafos que a introduzem e interpretam.
@@ -177,12 +175,12 @@ Preserve a estrutura de colunas e o bloco que produz o gráfico. Aplique a hiera
 
 ::: {.column width="45%"}
 
-- **Leitura do gráfico:**
+- Leitura do gráfico:
 
-    - a curva privada representa o incentivo percebido pelo agente;
-    - a curva social incorpora o efeito sobre terceiros.
+    - a curva privada representa o incentivo percebido pelo agente
+    - a curva social incorpora o efeito sobre terceiros
 
-- **Implicação:** a distância entre as curvas orienta o instrumento corretivo.
+- Implicação: a distância entre as curvas orienta o instrumento corretivo
 
 :::
 
@@ -206,19 +204,19 @@ A escolha depende de informação, custos administrativos e capacidade de monito
 Depois:
 
 ~~~markdown
-- **Alternativas de política:**
+- Instrumentos de política:
 
-    - imposto;
-    - regulação.
+    - imposto
+    - regulação
 
-- **Critérios de decisão:**
+- Critérios de decisão:
 
-    - informação disponível;
-    - custos administrativos;
-    - capacidade de monitoramento.
+    - informação disponível
+    - custos administrativos
+    - capacidade de monitoramento
 ~~~
 
-Reaproveite a hierarquia que já expressa corretamente a lógica. Ajuste apenas trechos planos, níveis inconsistentes ou agrupamentos sem função clara.
+Reaproveite a hierarquia e os rótulos que já expressam corretamente a lógica. Ajuste apenas trechos planos, níveis inconsistentes, paralelismo, espaçamento de renderização ou agrupamentos sem função clara.
 
 ## 9. Sequência numerada
 
@@ -233,12 +231,12 @@ Ordem sem significado:
 Reorganização:
 
 ~~~markdown
-- **Diagnóstico:**
+- Diagnóstico:
 
-    - quem é afetado;
-    - qual é o mecanismo.
+    - quem é afetado?
+    - qual é o mecanismo?
 
-- **Decisão:** qual instrumento pode responder.
+- Decisão: qual instrumento pode responder?
 ~~~
 
 Ordem necessária:
@@ -249,7 +247,13 @@ Ordem necessária:
 3. Compare-a com a quantidade de mercado.
 ~~~
 
-No segundo caso, mantenha a numeração porque cada etapa depende da anterior.
+No segundo caso, mantenha a numeração porque cada etapa depende da anterior, e aplique a mesma regra de pontuação dos bullets:
+
+~~~markdown
+1. Calcule o custo marginal social
+2. Encontre a quantidade eficiente
+3. Compare-a com a quantidade de mercado
+~~~
 
 ## 10. Notas
 
@@ -270,7 +274,7 @@ Imagem: autor, acervo ou licença do ativo externo.
 :::
 ~~~
 
-Se uma nota contiver ambos os tipos, remova apenas a referência repetitiva e retenha a fonte necessária.
+Se uma nota contiver ambos os tipos, remova apenas a referência repetitiva e retenha a fonte necessária. A regra de pontuação vale para bullets do slide, não para notas.
 
 ## Exceções
 
