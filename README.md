@@ -2,19 +2,20 @@
 
 Skill para reorganizar apresentações já existentes em bullets hierárquicos, sem mudar o argumento, as fontes nem a identidade visual.
 
-O aplicativo do agente lê esta ficha e atua na microestrutura de cada slide: ideia principal, premissas ou mecanismo, resultado ou implicação. Não planeja a aula e não inventa conteúdo.
+O aplicativo do agente lê esta ficha e atua na microestrutura de cada slide: põe cada trecho no nível da sua função e na ordem em que um depende do outro. Não planeja a aula e não inventa conteúdo.
 
-Funciona no [padrão aberto Agent Skills](https://agentskills.io/specification) (`SKILL.md`). Complementa [aula-academica](https://github.com/patrick-andrade/aula-academica): aquela skill define a arquitetura pedagógica; esta torna a hierarquia visível no texto já produzido.
+Funciona no [padrão aberto Agent Skills](https://agentskills.io/specification) (`SKILL.md`). Complementa [aula-academica](https://github.com/patrick-andrade/aula-academica): aquela skill decide o que cada lâmina afirma, como abre e que fontes mostra; esta cuida da forma do texto já produzido. A ordem de uso é produzir, aplicar esta skill e então auditar.
 
 Guia: [Skills na Prática](https://patrick-andrade.github.io/guias/skills-na-pratica.html).
 
 ## O que ela faz
 
 - Converte parágrafos soltos e listas genéricas em uma hierarquia de um a três níveis.
-- Usa rótulos funcionais em texto simples só quando ajudam, sem negrito por padrão e sem pontuação final nos itens.
+- Liga os passos do argumento com conectivos (porque, por isso, logo) e usa rótulos só quando ajudam: sem negrito, sem dois-pontos no rótulo que abre uma sublista e sem pontuação final nos itens.
+- Confere a consistência de cada slide: reordena os blocos para pôr a definição antes do uso e as premissas antes do resultado, e sinaliza termo sem definição, hipótese ou evidência indeterminada e figura sem fonte.
 - Preserva template, quantidade de slides, tabelas, gráficos, fórmulas, código e notas que exigem rastreabilidade. Se o texto não couber, enxuga a redação e, se ainda não bastar, propõe dividir o slide.
 - Serve em Quarto, Markdown, PowerPoint (em uma cópia `-bullets.pptx`) e Google Slides. Usa um conector do Google Slides se o seu ambiente tiver um; não instala nenhum.
-- Termina com um relatório: slides alterados, lacunas sinalizadas, notas removidas e o que ficou sem verificação visual.
+- Termina com um relatório: slides alterados, blocos reordenados, lacunas sinalizadas, notas removidas e o que ficou sem verificação visual.
 
 A skill guarda o *como*. O chat continua dizendo *qual* apresentação e *o que* pode mudar.
 
